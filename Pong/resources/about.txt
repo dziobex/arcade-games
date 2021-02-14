@@ -1,0 +1,6 @@
+From Wikipedia:
+Pong is a table tennis-themed arcade video game, created by Allan Alcorn as a training exercise, manufactured by Atari and originally released in 1972.
+Pong is a two-dimensional sports game that simulates table tennis. The player controls an in-game paddle by moving it vertically across the left or right side of the screen. Players use the paddles to hit a ball back and forth.
+The goal is for each player to reach 11 points before the opponent.
+
+I created Pong Clone also as a training exercise. Hope you'll enjoy :] ~Dziobex

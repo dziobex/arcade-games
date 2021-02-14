@@ -1,0 +1,5 @@
+> ESC - pause/unpause
+
+> ARROWS (UP & DOWN) - move player (right side in PvP mode)
+
+> W (UP) & S (DOWN) - move player (left player in PvP and PvC mode)
