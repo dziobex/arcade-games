@@ -1,0 +1,12 @@
+From Wikipedia: Tetris is a
+tile-matching video game created
+by Alexey Pajitnov in 1984.
+Player has to complete lines
+by moving differently shaped
+pieces (tetrominoes),
+which descend onto the playing
+field.
+The completed lines disappear
+and grant the player points.
+The game ends when the playing
+field is filled.

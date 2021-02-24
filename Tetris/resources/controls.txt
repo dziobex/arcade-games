@@ -1,0 +1,6 @@
+ESC - pause/resume
+LEFT ARROW - move left
+RIGHT ARROW - move right
+DOWN ARROW - soft drop
+SPACE - hard drop
+SHIFT - hold piece
