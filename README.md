@@ -21,3 +21,8 @@ I did it regaring to the 4 basics rules ([source](https://en.wikipedia.org/wiki/
 ![](https://i.imgur.com/RfkX0jw.gif)</br></br>
 Classic Tetris Clone. Original Tetris was created by Russian software engineer Alexey Pajitnov in 1984.</br>
 I used several algorithms: all blocks are in a 2D bool array (board) and tetrominoes rotations depends on the small, single arrays rotation. Tetrominoes structures, resources have been placed in the files.
+
+## Breakout
+![](https://i.imgur.com/YeN3hsb.gif)</br></br>
+From Wikipedia: Breakout (also known as Arkanoid) is an arcade game developed and published by Atari Inc.</br>
+I used almost the same technique in bouncing ball (with slight changes in the collision detection) as with Pong ([look above](https://github.com/dziobex/arcade-games#pong)). 
