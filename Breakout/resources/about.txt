@@ -1,0 +1,8 @@
+Breakout is a game developed and
+released in 1976 by Atari.
+The goal is to destroy bricks
+placed at the top of the screen.
+In this version, player has 3
+lives and can reach levels,
+with increasing ball speed at
+the same time.

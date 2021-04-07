@@ -1,0 +1,3 @@
+ESC - pause
+LEFT-RIGHT ARROW - paddle movements
+A-D KEYS - paddle movements
