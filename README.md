@@ -28,6 +28,6 @@ From Wikipedia: Breakout (also known as Arkanoid) is an arcade game developed an
 I used almost the same technique in bouncing ball (with slight changes in the collision detection) as with Pong ([look above](https://github.com/dziobex/arcade-games#pong)).
 
 ## Doge Invaders
-![](https://i.imgur.com/Apkyk0f.gifv)</br></br>
+![](https://i.imgur.com/Apkyk0f.gif)</br></br>
 Game based on the classic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders).</br>
 Nothing special - a simple algorithm for collision detection with bullets and a bunch of silly assets.
