@@ -126,11 +126,11 @@ void Handler::mainMenu(sf::Vector2f mousePos,  float deltaTime, bool keyPressed,
 
 		if (playWindow.GetClickedOption() != -1) {
 			theme = playWindow.GetClickedOption();
-			// set pause window image rect, according to the current theme
-			pauseWindow.SetImageTextureRect(1, sf::IntRect(theme * 300, 0, 300, 300));
 			// I messed up with assets order, sorry
 			if (theme == 1) theme = 2;
 			else if (theme == 2) theme = 1;
+			// set pause window image rect, according to the current theme
+			pauseWindow.SetImageTextureRect(1, sf::IntRect(theme * 300, 0, 300, 300));
 			renewGame();
 			stage = 1;
 			playWindow.Reset();
@@ -204,7 +204,7 @@ void Handler::displayBoard() {
 	}
 }
 
-void Handler::prepareGame(int theme) {
+void Handler::prepareGame() {
 	// clear containers from the previous theme
 
 	for (auto& e : enemies)
@@ -265,7 +265,7 @@ void Handler::renewGame() {
 	enemiesCount = 32;
 	bulletCooldown = SHOT_COOLDOWN;
 	scoreSaved = false;
-	prepareGame(theme);
+	prepareGame();
 }
 
 // initialize all textures that will be used
@@ -378,7 +378,7 @@ void Handler::popWindowsInitializer() {
 	pauseWindow.AddSubtext("(I'm virgin)", 15, 85, 415, 2, 30, 0);
 	pauseWindow.AddImage("pause_doge", 300, 300, 280, 340);
 	pauseWindow.AddImage("pause_doge_hair", 300, 300, 280, 340);
-	pauseWindow.SetImageTextureRect(1, sf::IntRect(0, 0, 300, 300));
+	pauseWindow.SetImageTextureRect(1, sf::IntRect(theme * 300, 0, 300, 300));
 	pauseWindow.AddContent("\"\"", 20, 50, 150);
 	FilesManager::InitializeQuotes(50);
 
@@ -522,7 +522,7 @@ void Handler::Loop() {
 				wave++;
 				bulletCooldown -= 100;
 				enemiesCount = 32;
-				prepareGame(theme);
+				prepareGame();
 				initializeBoard();
 			}
 
@@ -610,7 +610,7 @@ void Handler::Loop() {
 						}
 						renewGame();
 					}
-					// read it as: "Quimt the game." has been clicked
+					// read as: "Quimt the game." has been clicked
 					if (pauseWindow.GetClickedOption() == 2) stage = 0;
 					pauseWindow.Reset();
 					initializeBoard();
