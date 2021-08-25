@@ -58,7 +58,7 @@ class Handler {
 	std::vector<Enemy*> deadEnemies;
 	std::vector<Shield*> shields;
 
-	void prepareGame(int theme);
+	void prepareGame();
 	void renewGame();
 
 	// initializers
